@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "WhatsApp Extension",
+    "version": "1.4.17",
+    "permissions": [
+      "tabs",
+      "activeTab",
+      "scripting"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://web.whatsapp.com/*"],
+        "js": ["content.js"]
+      }
+    ],
+    "host_permissions": [
+      "http://localhost:5000/",
+      "https://web.whatsapp.com/"
+    ]
+  }
+  

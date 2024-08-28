@@ -1,0 +1,6 @@
+Model Name,Model Size,Hardware Requirements,Context Support,Usage Details
+GPT-2 (small),124M,"CPU, 8GB RAM",Up to 512 tokens,"Suitable for basic text generation, conversational tasks."
+GPT-2 (medium),355M,"CPU, 12GB RAM",Up to 1024 tokens,Handles more complex prompts with moderate context length.
+GPT-Neo 125M,125M,"CPU, 8GB RAM",Up to 2048 tokens,"Lightweight, supports reasonably large context for basic tasks."
+GPT-J 6B,6B,"CPU, 16GB RAM",Up to 2048 tokens,"Supports larger contexts, slower but usable on CPU for short tasks."
+EleutherAI GPT-2 345M,345M,"CPU, 10GB RAM",Up to 1024 tokens,"A balanced model, useful for tasks requiring moderate context."
